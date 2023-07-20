@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <ul>
+        <!-- <li> é o item de dentro da minha lista -->
+        <!-- <a> é uma referencia de uma outra página, criando algo clicavel -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <h1>Entre em contato comigo!</h1>
+
+    <!-- <form> cria um espaço para se criar um formulério -->
+    <form action="">
+
+        <!-- <label> é uma escrita onde for é como se fosse o id dele -->
+        <label for="nome">Nome:</label>
+        <!-- <input> é para se criar um campo onde podemos escrever algo para ser enviado, contém o tipo dele -que pode variar- e tem o id que tem de ser igual ao "for" do label -->
+        <input type="text" id="nome">
+
+        <label for="emial">E-mail:</label>
+        <input type="email" id="email">
+
+        <label for="assunto">Assunto:</label>
+        <!-- <textarea> cria um campo maior para escrita, dento o nome e o id para referenciar junto ao label, mas também contém o "cols" (colunas) e "rows" (linhas) para saber o tamanho da caixa de texto -->
+        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+
+        <!-- <buton> é um botão -->
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
