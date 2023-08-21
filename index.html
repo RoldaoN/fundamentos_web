@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <!-- <ul> é uma lista desordenada, sem caracterie na frente (ol é uma lista ordenada ao qual aparece 1 - item da lista)-->
-    <ul>
+    <ul id="menu">
         <!-- <li> é o item de dentro da minha lista -->
         <!-- <a> é uma referencia de uma outra página, criando algo clicavel -->
         <li><a href="index.html">Home</a></li>
@@ -16,17 +17,29 @@
     </ul>
 
     <!--A teg <h1> é usada para titulo e subtitulos, indo de h1 até h6 -->
-    <h1>Sobre mim</h1>
+    <h1 class="center">Sobre mim</h1>
 
-    <!-- A teg <p> é para paragráfos -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos a doloremque debitis dolorem non quis praesentium nam eum, id reprehenderit ipsam voluptates obcaecati est soluta recusandae. Quam, ipsum. Minima, recusandae!</p>
+    <div class="container">
+        <!-- A teg <p> é para paragráfos -->
+        <div class="p-30 justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+        <!-- A tag <img> entra com uma imagem na minha página-->
+        <div><img class="br-50 wh p-30" src="assets/img/foto_minha.jpg" alt="Foto do criador deste conteúdo."></div>
+    </div>
 
-    <!-- A tag <img> entra com uma imagem na minha página-->
-    <img src="assets/img/foto_minha.jpg" alt="Foto do criador deste conteúdo." HEIGHT="300">
-
-    <h2>Meu video predileto:</h2>
+    <h2 class="center">Meu video predileto:</h2>
 
     <!-- <iframe> entra com um video da internet na minha página -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ev5YLg7AJqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="container mb-50"><iframe width="560" height="315" src="https://www.youtube.com/embed/ev5YLg7AJqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/nohan-esteves-roldao/" target="_blank"><img class="tm p-30" src="assets/img/linkedin.png" alt="Logo do linkedin"></a>
+            <a href="https://www.instagram.com/n_roldao/" target="_blank"><img class="tm p-30" src="assets/img/instagram.png" alt="Logo do isntagram"></a>
+            <a href="https://github.com/RoldaoN" target="_blank"><img class="tm p-30" src="assets/img/github.png" alt="Logo do github"></a>
+        </div>
+        <p class="center">Todos os direitos reservados: Nohan E. Roldão &copy;</p>
+    </footer>
 </body>
 </html>
